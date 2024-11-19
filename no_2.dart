@@ -1,7 +1,7 @@
 import 'dart:math';
 import 'dart:io';
 
-// guess the random number 
+// guess the random number in this program 
 void main() {
   int randomNumber = Random().nextInt(100) + 1; // Random number between 1 and 100
   int guess;
